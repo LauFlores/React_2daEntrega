@@ -59,17 +59,17 @@ const NavigableMenu = ({classProp}) => {
                         MenuListProps={{
                             'aria-labelledby': 'basic-button',
                         }}>
-                            <MenuItem to="/category/cocina" onClick={handleClose}>
-                            Cocina
+                            <MenuItem onClick={handleClose}><Link to="/category/cocina">
+                            Cocina</Link>
                             </MenuItem>
-                            <MenuItem to="/category/dormitorio" onClick={handleClose}>
-                            Dormitorio
+                            <MenuItem  onClick={handleClose}><Link to="/category/dormitorio">
+                            Dormitorio</Link>
                             </MenuItem>
-                            <MenuItem to="/category/banio" onClick={handleClose}>
-                            Baño
+                            <MenuItem onClick={handleClose}><Link to="/category/baño" >
+                            Baño</Link>
                             </MenuItem>
-                            <MenuItem to="/category/hogar" onClick={handleClose}>
-                            Deco Hogar
+                            <MenuItem  onClick={handleClose}><Link to="/category/hogar">
+                            Deco Hogar</Link>
                             </MenuItem>
  
                     </Menu>
